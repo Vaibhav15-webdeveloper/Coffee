@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARBUCKS☕</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#">
+                <img src="./images/logo.png" class="logo" alt="logo">
+            </a>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Order">What's New</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content" >
+            <div class="textBox">
+                <h2>It's not just a Coffee <br> It's <Span>Starbucks</Span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quas dicta, exercitationem quis aut
+                    ad enim, quae corporis pariatur quaerat deserunt voluptatem ab aperiam iure sunt nostrum sapiente.
+                    Ducimus porro sequi ipsa doloremque!
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="img-box">
+                <img src="./images/img1.png" class="Starbucks" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png');changeCircleColor('#017143')">
+            </li>
+            <li><img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png');changeCircleColor('#eb7495')">
+            </li>
+            <li><img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1')">
+            </li>
+        </ul>
+    </section>
+    <div class="two" id="Menu">
+        <div class="lft-two">
+            <img src="./images/burger.jpg" alt="">
+        </div>
+        <div class="rght-two">
+            <div class="text-rght">
+                <h3>Merrily Delicious</h3>
+                <p>
+                    Grab a toasty warm sandwich or a new Turkey Sage Danish and make your afternoon
+                    feel oh-so bright
+                </p>
+                <a href="">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="three" id="Order">
+        <div class="lft-three">
+            <h3>Your free coffee awaits</h3>
+            <p>
+                Unlock Rewards from the very first sip,<br> starting
+                with a free handcrafted drink <br> with qualifying purchase during your <br> first week.*
+            </p>
+            <a href="">Join Now</a>
+        </div>
+        <div class="rght-three">
+            <img src="./images/137-96582.jpg" alt="">
+        </div>
+    </div>
+    <div class="four">
+        <div class="lft-two">
+            <img src="./images/137-96497.jpg" alt="">
+        </div>
+        <div class="rght-birthplace">
+            <div class="text-rght  container">
+                <h3>From the birthplace of coffee</h3>
+                <p>
+                    With distinctive floral, tangerine and lemon balm notes, Single-Origin
+                    Ethiopia is a unique global favorite.
+                </p>
+                <a href="">Add To Order</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container2" id="Contact">
+            <div class="footer-link">
+                <h2>About Us</h2>
+                <ul>
+                    <li>Our Company</li>
+                    <li>Our Coffee</li>
+                    <li>About Starbucks</li>
+                    <li>Starbucks Archive</li>
+                    <li>Investor Relations</li>
+                    <li>Customer Service</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h2>Carrer</h2>
+                <ul>
+                    <li>Careers</li>
+                    <li>Culture and Values</li>
+                    <li>Inclusion, Diversity, & <br> Belonging</li>
+                    <li> College Achievement Plan</li>
+                    <li>Alumni Community</li>
+                    <li>U.S. Careers</li>
+                    <li>International Careers</li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h2>Social Impact</h2>
+                <ul>
+                    <li>Communities</li>
+                    <li>Starbucks Foundation</li>
+                    <li>Sustainability</li>
+                    <li>Environmental and Social <br> Impact Reporting</li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h2>For Business Partners</h2>
+                <ul>
+                    <li>Landlord Support Center</li>
+                    <li>Suppliers</li>
+                    <li>Corporate Gift Card Sales</li>
+                    <li>Office and Foodservice Coffee</li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h2>Order and Pick Up</h2>
+                <ul>
+                    <li>Our Company</li>
+                    <li>Our Coffee</li>
+                    <li>About Starbucks</li>
+                    <li>Starbucks Archive</li>
+                    <li>Investor Relations</li>
+                    <li>Customer Service</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="container3">
+                <i class="fa-brands fa-spotify"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
